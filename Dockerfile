@@ -1,4 +1,4 @@
-FROM elasticsearch:7.17.6
+FROM docker.elastic.co/elasticsearch/elasticsearch:7.17.29
 
 ADD bootstrap_elastic_dh.sh /tmp/bootstrap_elastic_dh.sh
 ADD create_collection_metadata_index.sh /tmp/create_collection_metadata_index.sh
